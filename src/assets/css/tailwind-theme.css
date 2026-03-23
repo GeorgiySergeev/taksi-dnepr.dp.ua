@@ -1,19 +1,19 @@
 /**
- * Tailwind v4 theme configuration for taxi landing.
- * Расширяет дефолтную тему под лендинг «Ночное такси Днепр».
+ * Tailwind v4 theme tokens for Night Taxi Dnipro.
+ * Extends default theme with landing-specific design tokens.
  *
- * Namespaces: --color-*, --font-*, --text-*, --breakpoint-*, --container-*,
- * --radius-*, --shadow-*, --spacing-*, etc.
  * @see https://tailwindcss.com/docs/configuration
  */
 
 @theme {
-  /* Typography — hero/section titles (text-hero, text-section) */
-  --text-hero: 3rem;
-  --text-hero--line-height: 1.1;
-  --text-section: 2.25rem;
-  --text-section--line-height: 1.2;
+  --text-hero: clamp(2rem, 7vw, 3.5rem);
+  --text-hero--line-height: 1.05;
+  --text-section: clamp(1.5rem, 4vw, 2rem);
+  --text-section--line-height: 1.15;
+  --text-body: 1rem;
+  --text-body--line-height: 1.6;
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.4;
 
-  /* Container — max-width для контента лендинга (max-w-container-landing) */
-  --container-landing: 72rem;
+  --container-landing: 64rem;
 }
