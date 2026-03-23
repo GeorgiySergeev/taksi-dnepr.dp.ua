@@ -1,0 +1,12 @@
+# Vite
+/dist
+/node_modules
+
+# IDE
+.idea
+.vscode
+.cursor
+
+# OS
+.DS_Store
+Thumbs.db
