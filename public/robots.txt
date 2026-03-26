@@ -1,0 +1,5 @@
+# https://taxi-dnepr.dp.ua/
+User-agent: *
+Allow: /
+Host: https://taxi-dnepr.dp.ua
+Sitemap: https://taxi-dnepr.dp.ua/sitemap.xml

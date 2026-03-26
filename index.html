@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" class="dark" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,8 +18,11 @@
       name="robots"
       content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     />
-    <meta name="theme-color" content="#050505" />
+    <meta name="theme-color" content="#0c0a09" />
     <link rel="canonical" href="https://taxi-dnepr.dp.ua/" />
+    <style>
+      :root{--bg:#0c0a09;--surface:#141210;--border:#292524;--b2:#3f3a36;--text:#f5f5f4;--muted:#d6d3d1;--muted2:#a8a29e;--accent:oklch(82.8% .189 84.429);--accent-hover:#fb923c;--accent-soft:rgba(234,88,12,0.18);--green:#22c55e;--font:"Space Grotesk",sans-serif;--mono:"Space Mono",monospace;--space-xs:0.25rem;--space-sm:0.5rem;--space-md:1rem;--space-lg:1.5rem;--space-xl:2rem;--radius-btn:0.75rem;--hero-bg-image:url("/img/hero-bg-3.webp")}*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;overflow-x:hidden;-webkit-text-size-adjust:100%}body.page{font-family:var(--font);font-size:1rem;line-height:1.5;background:var(--bg);color:var(--text);overflow-x:hidden;min-height:100dvh;padding-bottom:calc(3.75rem + env(safe-area-inset-bottom, 0px))}@media (min-width:860px){body.page{padding-bottom:0}}a{color:inherit;text-decoration:none}.hdr{position:sticky;top:0;z-index:200;display:flex;align-items:center;justify-content:space-between;gap:var(--space-md);min-height:calc(3.25rem + env(safe-area-inset-top, 0px));padding:max(var(--space-sm),env(safe-area-inset-top, 0px)) 1.25rem var(--space-sm);border:1px solid var(--b2);background:rgba(12,10,9,0.88);backdrop-filter:blur(1.25rem);-webkit-backdrop-filter:blur(1.25rem)}.hero{position:relative;isolation:isolate;display:flex;flex-direction:column;border:1px solid var(--b2);overflow:hidden}.hero__backdrop{position:absolute;inset:0;z-index:0;background-color:var(--bg);background-image:var(--hero-bg-image);background-size:cover;background-position:center 65%;background-repeat:no-repeat;transform:scale(1.02)}.hero__scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(12,10,9,0.92) 0%,rgba(12,10,9,0.85) 82%,rgba(12,10,9,0.82) 70%);pointer-events:none}.hero__content{position:relative;z-index:2;display:flex;flex-direction:column;flex:1;justify-content:space-around;gap:var(--space-md);padding:var(--space-md) 1.25rem var(--space-xl)}.h1{font-size:clamp(3.125rem,13vw,5rem);font-weight:600;line-height:0.93;letter-spacing:-0.035em;color:var(--text);margin:0}.eyebrow{font-family:var(--mono);font-size:0.9rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent);margin:0;width:fit-content;padding-bottom:0.125rem;border-bottom:1px solid var(--accent-soft)}.phone-num{display:block;font-family:var(--mono);font-size:clamp(1.625rem,7vw,2.75rem);font-weight:700;letter-spacing:-0.02em;color:#fff;transition:color 0.18s ease}
+    </style>
     <meta property="og:locale" content="ru_UA" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Ночное такси Днепр" />
@@ -45,8 +48,32 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
 
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preload" as="image" href="/img/hero-bg-3.webp" fetchpriority="high" />
+    <!-- Google Tag Manager (deferred) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.addEventListener('DOMContentLoaded', function() {
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+          j.async = true;
+          j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NGD5C7WR");
+      });
+    </script>
+    <!-- End Google Tag Manager -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -60,7 +87,18 @@
       }
     </script>
   </head>
-  <body class="bg-zinc-950">
+  <body class="page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NGD5C7WR"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- ── HEADER ── -->
     <header class="hdr layout">
       <div class="hdr-logo">NIGHT<em>.</em>TAXI<em></em></div>
@@ -73,89 +111,97 @@
       </div>
     </header>
 
-    <!-- ── TWO-COLUMN WRAPPER (desktop) / passthrough (mobile) ── -->
+    <!-- ── MAIN CONTENT WRAPPER (desktop) / passthrough (mobile) ── -->
     <main class="layout">
       <!-- LEFT: HERO -->
-      <section class="hero bg-mist-950 bg-blend-overlay">
-        <div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__backdrop" aria-hidden="true"></div>
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="hero__content">
+          <!-- <img
+            class="hero__location--icon"
+            src="img/og-image.png"
+            alt="location icon"
+          /> -->
           <p class="eyebrow">Вызов в один клик</p>
-        </div>
+          <h1 class="h1" id="hero-title">
+            НОЧНОЕ
+            <span class="h1-y">ТАКСИ</span>
+            <span class="h1-ghost">ДНЕПР</span>
+          </h1>
 
-        <h1 class="h1">
-          НОЧНОЕ<br />
-          <span class="h1-y">ТАКСИ</span><br />
-          <span class="h1-ghost text-shadow-white">ДНЕПР</span>
-        </h1>
-        <!-- 
-        <ul class="hero-points">
-          <li>Работаем <strong>с&nbsp;22:00 до&nbsp;05:00</strong>.</li>
-          <li>Быстрая подача авто по городу</li>
-          <li>Доставка продуктов, напитков и табачных изделий</li>
-        </ul> -->
+          <div class="phone-wrap">
+            <div class="phone-label">Прямой номер</div>
+            <a class="phone-num" href="tel:+380972927676">097-292-76-76</a>
+          </div>
 
-        <div class="hero-car">
-          <img src="/img/car-1.png" alt="Ночное такси Днепр" />
-        </div>
+          <div class="ctas">
+            <a
+              class="btn btn-call"
+              href="tel:+380972927676"
+              data-cta="hero-call"
+              itemprop="telephone"
+              title="Call night taxi Dnepr"
+              aria-label="Call night taxi Dnepr at 097 292 76 76"
+            >
+              <img
+                src="/img/call.png"
+                alt="phone icon"
+                width="18"
+                height="18"
+                decoding="async"
+              />
+              <span>Позвонить</span>
+            </a>
 
-        <div class="phone-wrap">
-          <div class="phone-label">→ Прямой номер</div>
-          <a class="phone-num" href="tel:+380972927676">097-292-76-76</a>
-        </div>
-
-        <div class="ctas">
-          <a
-            class="btn btn-call"
-            href="tel:+380972927676"
-            data-cta="hero-call"
-            itemprop="telephone"
-            title="Call night taxi Dnepr"
-            aria-label="Call night taxi Dnepr at 097 292 76 76"
-          >
-            <img class="ctas-click" src="/img/click-2.png" alt="click" />
-            <img src="/img/call.png" alt="" width="18" height="18" />
-            <span>Позвонить</span>
-          </a>
-
-          <a
-            class="btn btn-msgr btn-telegram"
-            href="https://t.me/+380972927676"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            data-cta="hero-telegram"
-            itemprop="url"
-            title="Write in Telegram for taxi order"
-            aria-label="Напиcать в Телеграмм  заказ такси в Днепре"
-          >
-            <img src="/img/telegram.png" alt="" width="18" height="18" />
-            Telegram
-          </a>
-          <a
-            class="btn btn-msgr btn-viber"
-            href="viber://chat?number=380972927676"
-            rel="nofollow"
-            data-cta="hero-viber"
-            itemprop="url"
-            title="Write in Viber for taxi order"
-            aria-label="Написать в Viber  заказ такси в Днепре"
-          >
-            <img src="/img/viber.png" alt="" width="18" height="18" />
-            Viber
-          </a>
-          <!-- <a
-            class="btn btn-copy btn-callback"
-            href="tel:+380972927676"
-            data-cta="hero-callback"
-            itemprop="telephone"
-            title="Request a callback"
-            aria-label="Заказать обратный звонок  ночное такси Днепр"
-          >
-            <img src="/img/click.png" alt="" width="18" height="18" />
-            Заказать обратный звонок
-          </a> -->
+            <div
+              class="ctas__messengers"
+              role="group"
+              aria-label="Мессенджеры для заказа"
+            >
+              <a
+                class="btn btn-msgr btn-telegram"
+                href="https://t.me/+380972927676"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                data-cta="hero-telegram"
+                itemprop="url"
+                title="Write in Telegram for taxi order"
+                aria-label="Напиcать в Телеграмм  заказ такси в Днепре"
+              >
+                <img
+                  src="/img/telegram.png"
+                  alt="telegram icon"
+                  width="18"
+                  height="18"
+                  decoding="async"
+                />
+                Telegram
+              </a>
+              <a
+                class="btn btn-msgr btn-viber"
+                href="viber://chat?number=380972927676"
+                rel="nofollow"
+                data-cta="hero-viber"
+                itemprop="url"
+                title="Write in Viber for taxi order"
+                aria-label="Написать в Viber  заказ такси в Днепре"
+              >
+                <img
+                  src="/img/viber-white.png"
+                  alt="viber icon"
+                  width="24"
+                  height="24"
+                  decoding="async"
+                />
+                Viber
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
-      <!-- RIGHT: INFO COLUMN -->
+      <!--  INFO COLUMN -->
       <div class="info-col layout">
         <!-- Info rows -->
         <div class="rows">
@@ -170,21 +216,39 @@
           <div class="svc">
             <span class="svc-n">01</span>
             <span class="svc-ico"
-              ><img src="/img/taxi-icon.png" alt="" width="32" height="32"
+              ><img
+                src="/img/taxi-icon.png"
+                alt="taxi icon"
+                width="32"
+                height="32"
+                loading="lazy"
+                decoding="async"
             /></span>
             <span class="svc-lbl">Быстрая подача авто по городу</span>
           </div>
           <div class="svc">
             <span class="svc-n">02</span>
             <span class="svc-ico"
-              ><img src="/img/location-icon.png" alt="" width="32" height="32"
+              ><img
+                src="/img/location-icon.png"
+                alt="location icon"
+                width="32"
+                height="32"
+                loading="lazy"
+                decoding="async"
             /></span>
             <span class="svc-lbl">Днепр и межгород</span>
           </div>
           <div class="svc">
             <span class="svc-n">03</span>
             <span class="svc-ico"
-              ><img src="/img/cart-icon.png" alt="" width="32" height="32"
+              ><img
+                src="/img/cart-icon.png"
+                alt="cart icon"
+                width="32"
+                height="32"
+                loading="lazy"
+                decoding="async"
             /></span>
             <span class="svc-lbl"
               >Доставка продуктов питания, напитков и табачных изделий</span
@@ -193,11 +257,194 @@
           <div class="svc">
             <span class="svc-n">04</span>
             <span class="svc-ico"
-              ><img src="/img/clock-icon.png" alt="" width="32" height="32"
+              ><img
+                src="/img/clock-icon.png"
+                alt="clock icon"
+                width="32"
+                height="32"
+                loading="lazy"
+                decoding="async"
             /></span>
             <span class="svc-lbl">Работаем в комендантский час</span>
           </div>
         </div>
+
+        <article class="seo-body" lang="ru">
+          <p class="seo-body__lead">
+            Ночное такси Днепр — востребованная услуга для жителей и гостей
+            города, которым необходимо быстро, безопасно и комфортно добраться
+            домой в темное время суток. Когда общественный транспорт уже не
+            работает, а поездка откладываться не может, круглосуточное ночное
+            такси становится лучшим решением.
+          </p>
+
+          <section class="seo-body__section" aria-labelledby="seo-h2-1">
+            <h2 class="seo-body__h2" id="seo-h2-1">
+              Ночное такси в Днепре — удобство и безопасность
+            </h2>
+            <p class="seo-body__p">
+              Многие жители Днепра регулярно пользуются ночными перевозками
+              после работы, отдыха в кафе, поездок на вокзал или в аэропорт. В
+              такие моменты важно быть уверенным, что автомобиль приедет
+              вовремя, а стоимость поездки будет прозрачной и понятной.
+            </p>
+            <p class="seo-body__p seo-body__p--label">
+              Основные преимущества услуги:
+            </p>
+            <ul class="seo-body__list">
+              <li>работа без выходных</li>
+              <li>работаем в комендантский час</li>
+              <li>быстрая подача автомобиля</li>
+              <li>фиксированная стоимость поездки</li>
+              <li>опытный и вежливый водитель</li>
+              <li>возможность заказать машину заранее</li>
+            </ul>
+          </section>
+
+          <section class="seo-body__section" aria-labelledby="seo-h2-2">
+            <h2 class="seo-body__h2" id="seo-h2-2">
+              Когда особенно востребовано ночное такси
+            </h2>
+            <p class="seo-body__p">
+              Услуга ночное такси в Днепре актуальна в самых разных ситуациях.
+              Город живет активной жизнью, и необходимость передвижения ночью
+              возникает довольно часто. Это может быть срочная поездка,
+              возвращение домой после мероприятия или необходимость встретить
+              родственников на вокзале.
+            </p>
+            <p class="seo-body__p seo-body__p--label">
+              Чаще всего ночное такси заказывают в следующих случаях:
+            </p>
+            <ul class="seo-body__list">
+              <li>возвращение домой после работы в позднюю смену</li>
+              <li>поездки из ресторанов, клубов и мероприятий</li>
+              <li>трансфер на железнодорожный вокзал или автовокзал</li>
+              <li>встреча гостей ночью</li>
+              <li>поездка в аэропорт</li>
+              <li>срочные поездки по городу</li>
+            </ul>
+            <p class="seo-body__p">
+              Надежное ночное такси в Днепре позволяет не зависеть от расписания
+              общественного транспорта и не переживать за безопасность на
+              дороге.
+            </p>
+          </section>
+
+          <section class="seo-body__section" aria-labelledby="seo-h3-1">
+            <h3 class="seo-body__h3" id="seo-h3-1">
+              Преимущества заказа ночного такси в Днепре
+            </h3>
+            <p class="seo-body__p">
+              Выбирая профессиональный сервис ночное такси Днепр, клиент
+              получает ряд преимуществ, которые делают поездку максимально
+              удобной. Одним из ключевых факторов является скорость подачи
+              автомобиля. В большинстве случаев машина приезжает в течение 5–15
+              минут.
+            </p>
+            <p class="seo-body__p">
+              Также важным преимуществом является работа в комендантский час и
+              прозрачная ценовая политика. Стоимость поездки рассчитывается
+              заранее, поэтому пассажир точно знает, сколько заплатит за
+              поездку. Это особенно удобно при планировании бюджета.
+            </p>
+            <p class="seo-body__p seo-body__p--label">
+              Преимущества ночного такси:
+            </p>
+            <ul class="seo-body__list">
+              <li>доступные тарифы без скрытых платежей</li>
+              <li>возможность оплаты наличными или картой</li>
+              <li>оперативная подача машины</li>
+              <li>безопасность пассажиров</li>
+            </ul>
+          </section>
+
+          <section class="seo-body__section" aria-labelledby="seo-h3-2">
+            <h3 class="seo-body__h3" id="seo-h3-2">
+              Комфортные поездки по городу и за его пределы
+            </h3>
+            <p class="seo-body__p">
+              Услуга ночное такси Днепр подходит не только для поездок по
+              городу, но и для междугородних маршрутов. При необходимости можно
+              заказать автомобиль для поездки в пригород или другой населенный
+              пункт. Это удобно для тех, кто возвращается домой поздно ночью или
+              отправляется в командировку.
+            </p>
+            <p class="seo-body__p seo-body__p--label">
+              Ночное такси предоставляет следующие виды поездок:
+            </p>
+            <ul class="seo-body__list">
+              <li>поездки по Днепру</li>
+              <li>трансфер в аэропорт</li>
+              <li>доставка пассажиров на вокзал</li>
+              <li>поездки в пригород</li>
+              <li>обслуживание корпоративных клиентов</li>
+            </ul>
+          </section>
+
+          <section class="seo-body__section" aria-labelledby="seo-h4-1">
+            <h4 class="seo-body__h4" id="seo-h4-1">
+              Как заказать ночное такси в Днепре
+            </h4>
+            <p class="seo-body__p seo-body__p--label">
+              Заказать ночное такси Днепр можно всего за несколько минут.
+            </p>
+            <ul class="seo-body__list">
+              <li>по телефону</li>
+              <li>через сайт</li>
+              <li>через мессенджеры</li>
+              <li>предварительный заказ на определенное время</li>
+            </ul>
+            <p class="seo-body__p">
+              Оформление заказа занимает минимум времени. Достаточно указать
+              адрес подачи автомобиля и пункт назначения.
+            </p>
+          </section>
+
+          <section class="seo-body__section" aria-labelledby="seo-h5-1">
+            <h5 class="seo-body__h5" id="seo-h5-1">
+              Доступные цены на ночное такси в Днепре
+            </h5>
+            <p class="seo-body__p">
+              Стоимость услуги ночное такси Днепр остается доступной для
+              большинства жителей города. Несмотря на работу в ночное время,
+              тарифы остаются конкурентными и прозрачными. Цена зависит от
+              расстояния, времени поездки и дополнительных услуг.
+            </p>
+            <p class="seo-body__p">
+              Многие клиенты отмечают, что ночное такси часто оказывается
+              выгоднее, чем содержание собственного автомобиля, особенно если
+              поездки совершаются нечасто.
+            </p>
+          </section>
+
+          <section class="seo-body__section" aria-labelledby="seo-h6-1">
+            <h6 class="seo-body__h6" id="seo-h6-1">
+              Почему стоит выбрать профессиональное ночное такси
+            </h6>
+            <p class="seo-body__p">
+              Надежный сервис ночное такси Днепр — это гарантия своевременной
+              подачи автомобиля и комфортной поездки. Клиенты ценят
+              стабильность, безопасность и удобство, которые предоставляет
+              профессиональная служба перевозок.
+            </p>
+            <p class="seo-body__p seo-body__p--label">
+              Постоянные пользователи отмечают следующие преимущества:
+            </p>
+            <ul class="seo-body__list">
+              <li>быстрый отклик на заказ</li>
+              <li>вежливое обслуживание</li>
+              <li>чистый автомобиль</li>
+              <li>точное соблюдение времени подачи</li>
+              <li>удобные способы оплаты</li>
+            </ul>
+            <p class="seo-body__p">
+              Современное ночное такси в Днепре — это удобный способ
+              передвижения в любое время суток, когда важны скорость, надежность
+              и спокойствие пассажира.
+            </p>
+          </section>
+        </article>
+
         <!-- Notice -->
         <div class="notice notice-legacy">
           <span class="notice-icon"></span>
@@ -207,55 +454,62 @@
             097-292-76-76 — ночное такси Днепр ❗
           </p>
         </div>
-        <section
-          class="notice notice-card"
-          aria-labelledby="save-contact-title"
-        >
-          <div class="notice-head">
-            <span class="notice-badge">24/7 NIGHT ACCESS</span>
-            <h2 class="notice-title" id="save-contact-title">
-              Сохраните номер до того, как он срочно понадобится
+        <section class="banner" aria-labelledby="banner-title">
+          <div class="banner__glow" aria-hidden="true"></div>
+          <div class="banner__body">
+            <span class="banner__badge">
+              <span class="pulse"></span>
+              ONLINE 24/7
+            </span>
+            <h2 class="banner__title" id="banner-title">
+              Сохраните номер —&nbsp;<br class="banner__br" />
+              <span class="banner__accent">100%</span> понадобится!
             </h2>
-            <p class="notice-text">
+            <p class="banner__sub">
               Ночью время на поиск такси теряется быстрее всего. Сохраните
-              прямой номер сейчас и вызывайте машину в один клик, когда это
-              действительно нужно.
+              прямой номер сейчас и вызывайте машину в один клик.
             </p>
+            <div class="banner__phone-row">
+              <a class="banner__phone" href="tel:+380972927676"
+                >097-292-76-76</a
+              >
+              <button
+                class="banner__copy"
+                type="button"
+                data-copy-phone="+380972927676"
+                data-copy-default-label="Скопировать номер"
+                data-copy-success-label="Скопировано"
+                data-cta="banner-copy"
+              >
+                <img
+                  class="banner__copy-icon"
+                  src="/img/copy-icon.png"
+                  alt="copy icon"
+                  width="18"
+                  height="18"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span data-copy-label>Скопировать номер</span>
+              </button>
+            </div>
           </div>
-          <div class="notice-points" aria-label="Преимущества">
-            <span class="notice-point">Прямой контакт без формы</span>
-            <span class="notice-point">Быстрый вызов ночью</span>
-          </div>
-          <div class="notice-actions">
-            <a
-              class="btn btn-call notice-call"
-              href="tel:+380972927676"
-              data-cta="notice-call"
-            >
-              <img src="/img/call.png" alt="" width="18" height="18" />
-              <span>Позвонить: 097-292-76-76</span>
-            </a>
-            <button
-              class="btn btn-copy notice-copy"
-              type="button"
-              data-copy-phone="+380972927676"
-              data-copy-default-label="Скопировать номер"
-              data-copy-success-label="Номер скопирован"
-              data-cta="notice-copy"
-            >
-              <img src="/img/copy-icon.png" alt="" width="18" height="18" />
-              <span data-copy-label>Скопировать номер</span>
-            </button>
+          <div class="banner__visual" aria-hidden="true">
+            <img
+              class="banner__car"
+              src="/img/car-1.png"
+              alt="car image"
+              width="640"
+              height="360"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </section>
         <!-- Footer -->
         <footer class="ftr">
           <span class="ftr-copy"
-            >©
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            Night.Taxi — Днепр</span
+            >© <span id="footer-year">2026</span> Night.Taxi — Днепр</span
           >
           <span class="ftr-ph"
             ><a href="tel:+380972927676" data-cta="footer-call"
@@ -268,24 +522,28 @@
     </main>
     <!-- /layout -->
 
-    <!-- STICKY BAR (mobile only) -->
-    <!-- <div class="container">
-      <div class="sticky">
+    <div
+      class="sticky"
+      role="region"
+      aria-label="Быстрый звонок и копирование номера"
+    >
       <a class="s-btn s-call" href="tel:+380972927676" data-cta="sticky-call">
-        <img src="/img/call.png" alt="" width="18" height="18" />
+        <img src="/img/call.png" alt="phone icon" width="18" height="18" loading="lazy" decoding="async" />
         Позвонить
       </a>
       <button
         class="s-btn s-copy"
         type="button"
         data-copy-phone="+380972927676"
+        data-copy-default-label="Копировать номер"
+        data-copy-success-label="Скопировано"
         data-cta="sticky-copy"
       >
-        <img src="/img/copy-icon.png" alt="" width="18" height="18" />
-        Копировать номер
+        <img src="/img/copy-icon.png" alt="copy icon" width="18" height="18" loading="lazy" decoding="async" />
+        <span data-copy-label>Копировать номер</span>
       </button>
     </div>
-  </div> -->
     <script src="/src/main.js" type="module"></script>
+    <link rel="stylesheet" href="/src/style.css" />
   </body>
 </html>
